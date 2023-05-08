@@ -1,0 +1,23 @@
+import { Error, Loader, SongCard } from '..';
+import { genres } from '../../assets/constants';
+
+const DiscoverPage = () => {
+  const genreTitle = 'Pop';
+
+  return (
+    <div className="flex flex-col">
+      <div className="w-full flex justify-between items-center sm:flex-row flex-col mt-4 mb-10">
+        <h2 className="font-bold text-3x1 text-white text-left">Discover {genreTitle}</h2>
+        <select
+          onChange={() => { }}
+          value=""
+          className="bg-black text-gray-300 p-3 text-sm rounded-lg outline-none sm:mt mt-5"
+        >
+          {genres.map((genre) => <option key={genre.value} value={genre.value}>{genre.title}</option>)}
+        </select>
+      </div>
+    </div>
+  );
+};
+
+export default DiscoverPage;
