@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { DetailsHeader, Error, Laoder, RelatedSongs } from '../components';
+import { DetailsHeader, Error, Loader, RelatedSongs } from '../components';
 
 import { setActiveSong, playPause } from '../redux/features/playerSlice';
 
