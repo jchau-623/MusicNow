@@ -46,6 +46,8 @@ const TopPlay = () => {
   }, []);
 
   const topPlays = data?.tracks.slice(0, 5);
+  // console.log(data);
+  // console.log(topPlays);
 
   const handlePauseClick = () => {
     dispatch(playPause(false));
@@ -100,6 +102,7 @@ const TopPlay = () => {
               key={song?.key}
               style={{ width: '25%', height: 'auto' }}
               className="shadow-lg rounded-full animate-slideright"
+              i={i}
             >
               <Link to={`/artists/${song?.artists[0].adamid}`}>
                 <img
