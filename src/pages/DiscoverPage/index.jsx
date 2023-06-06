@@ -28,7 +28,7 @@ const DiscoverPage = () => {
           value=""
           className="bg-black text-gray-300 p-3 text-sm rounded-lg outline-none sm:mt mt-5"
         >
-          {genres.map((genre) => <option key={genre.value} value={genre.value}>{genre.title}</option>)}
+          {genres?.map((genre) => <option key={genre.value} value={genre.value}>{genre.title}</option>)}
         </select>
       </div>
 

@@ -68,7 +68,7 @@ const TopPlay = () => {
           </Link>
         </div>
         <div className="mt-4 flex flex-col gap-1">
-          {topPlays.map((song, i) => (
+          {topPlays?.map((song, i) => (
             <TopChartCard
               key={song.key}
               song={song}
@@ -97,7 +97,7 @@ const TopPlay = () => {
           modules={[FreeMode]}
           className="mt-4"
         >
-          {topPlays.map((song, i) => (
+          {topPlays?.map((song, i) => (
             <SwiperSlide
               key={song?.key}
               style={{ width: '25%', height: 'auto' }}
