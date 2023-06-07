@@ -185,7 +185,7 @@ const Container = styled.div`
         height: 15rem;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
       }
-      cursor:pointer;
+      // cursor:pointer;
     }
     .details {
       display: flex;
