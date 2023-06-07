@@ -57,8 +57,8 @@ const Container = styled.div`
     &__image {
     }
     &__info {
-      display: flex;
-      flex-direction: column;
+      // display: flex;
+      // flex-direction: column;
       &__track__name {
         color: white;
       }
@@ -66,5 +66,8 @@ const Container = styled.div`
         color: #b3b3b3;
       }
     }
+  }
+  .track__image {
+    padding-left: 20px;
   }
 `;

@@ -92,7 +92,7 @@ export default function Body({ headerBackground }) {
               <img src={selectedPlaylist.image} alt="selected playlist" />
             </div>
             <div className="details">
-              <span className="type">PLAYLIST</span>
+              <span className="type">Playlist</span>
               <h1 className="title">{selectedPlaylist.name}</h1>
               <p className="description">{selectedPlaylist.description}</p>
             </div>
@@ -103,10 +103,10 @@ export default function Body({ headerBackground }) {
                 <span>#</span>
               </div>
               <div className="col">
-                <span>TITLE</span>
+                <span>Title</span>
               </div>
               <div className="col">
-                <span>ALBUM</span>
+                <span>Album</span>
               </div>
               <div className="col">
                 <span>

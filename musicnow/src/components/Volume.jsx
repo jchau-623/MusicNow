@@ -29,6 +29,7 @@ export default function Volume() {
 
 const Container = styled.div`
   display: flex;
+  padding-right: 20px;
   justify-content: flex-end;
   align-content: center;
   input {
