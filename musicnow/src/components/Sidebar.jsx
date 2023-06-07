@@ -8,10 +8,10 @@ export default function Sidebar() {
     <Container>
       <div className="top__links">
         <div className="logo">
-          <img
+          {/* <img
             src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png"
             alt="spotify"
-          />
+          /> */}
         </div>
         <ul>
           <li>
@@ -45,7 +45,7 @@ const Container = styled.div`
     flex-direction: column;
     .logo {
       text-align: center;
-      margin: 1rem 0;
+      // margin: 1rem 0;
       img {
         max-inline-size: 80%;
         block-size: auto;

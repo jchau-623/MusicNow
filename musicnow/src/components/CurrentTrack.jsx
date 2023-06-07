@@ -59,7 +59,6 @@ const Container = styled.div`
     &__info {
       display: flex;
       flex-direction: column;
-      gap: 0.3rem;
       &__track__name {
         color: white;
       }

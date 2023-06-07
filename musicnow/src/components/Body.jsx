@@ -185,6 +185,7 @@ const Container = styled.div`
         height: 15rem;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
       }
+      cursor:pointer;
     }
     .details {
       display: flex;
@@ -222,6 +223,7 @@ const Container = styled.div`
         &:hover {
           background-color: rgba(0, 0, 0, 0.7);
         }
+        cursor:pointer;
         .col {
           display: flex;
           align-items: center;
