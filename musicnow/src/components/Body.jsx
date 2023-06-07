@@ -153,7 +153,7 @@ export default function Body({ headerBackground }) {
                         </div>
                         <div className="info">
                           <span className="name">{name}</span>
-                          <span>{artists}</span>
+                          <span>{`${artists}`}</span>
                         </div>
                       </div>
                       <div className="col">

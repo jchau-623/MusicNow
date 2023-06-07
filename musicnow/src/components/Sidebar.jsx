@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { NavLink } from 'react-router-dom';
 import { MdHomeFilled, MdSearch } from "react-icons/md";
 import { IoLibrary } from "react-icons/io5";
 import Playlists from "./Playlists";
@@ -16,10 +15,8 @@ export default function Sidebar() {
         </div>
         <ul>
           <li>
-            <NavLink to='/' exact={true} activeClassName='active'>
             <MdHomeFilled />
             <span>Home</span>
-            </NavLink>
           </li>
           <li>
             <MdSearch />
