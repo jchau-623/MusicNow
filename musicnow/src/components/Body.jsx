@@ -64,6 +64,7 @@ export default function Body({ headerBackground }) {
           Authorization: "Bearer " + token,
         },
       }
+      
     );
     if (response.status === 204) {
       const currentPlaying = {
