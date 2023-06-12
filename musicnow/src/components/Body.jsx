@@ -48,6 +48,7 @@ export default function Body({ headerBackground }) {
     image,
     context_uri,
     track_number
+    
   ) => {
     const response = await axios.put(
       `https://api.spotify.com/v1/me/player/play`,
@@ -64,7 +65,7 @@ export default function Body({ headerBackground }) {
           Authorization: "Bearer " + token,
         },
       }
-      
+
     );
     if (response.status === 204) {
       const currentPlaying = {
