@@ -47,7 +47,7 @@ export default function Body({ headerBackground }) {
     artists,
     image,
     context_uri,
-    track_numbe
+    track_number
   ) => {
     const response = await axios.put(
       `https://api.spotify.com/v1/me/player/play`,
