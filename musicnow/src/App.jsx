@@ -18,4 +18,5 @@ export default function App() {
     document.title = "MusicNow";
   }, [dispatch, token]);
   return <div>{token ? <Spotify /> : <Login />}</div>;
+  
 }
