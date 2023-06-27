@@ -19,4 +19,3 @@ export default function App() {
   }, [dispatch, token]);
   return <div>{token ? <Spotify /> : <Login />}</div>;
 }
-
