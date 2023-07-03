@@ -14,6 +14,7 @@ export default function Navbar({ navBackground }) {
       <div className="avatar">
         <a href={userInfo?.userUrl}>
           <CgProfile />
+          
           <span>{userInfo?.name}</span>
         </a>
       </div>
