@@ -19,6 +19,7 @@ export default function Navbar({ navBackground }) {
       </div>
     </Container>
   );
+  
 }
 
 const Container = styled.div`
