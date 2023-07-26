@@ -18,7 +18,6 @@ export default function Navbar({ navBackground }) {
         </a>
       </div>
     </Container>
-    
   );
 
 }
