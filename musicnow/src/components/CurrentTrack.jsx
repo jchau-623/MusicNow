@@ -16,7 +16,7 @@ export default function CurrentTrack() {
           },
         }
       );
-      
+
       if (response.data !== "") {
         const currentPlaying = {
           id: response.data.item.id,
@@ -46,6 +46,7 @@ export default function CurrentTrack() {
           </div>
         </div>
       )}
+      
     </Container>
   );
 }
